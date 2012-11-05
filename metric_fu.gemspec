@@ -3,14 +3,14 @@ lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
-  s.name        = "bf4-metric_fu"
+  s.name        = "metric_fu"
   s.platform    = Gem::Platform::RUBY
   s.version     = "2.1.3.1"
   s.summary     = "A fistful of code metrics, with awesome templates and graphs"
-  s.email       = "github@benjaminfleischer.com"
-  s.homepage    = "http://github.com/bf4/metric_fu"
+  s.email       = "jon@joncairns.com"
+  s.homepage    = "http://github.com/joonty/metric_fu"
   s.description = "Code metrics from Flog, Flay, Simplecov-RCov, Saikuro, Churn, Reek, Roodi, Rails' stats task and Rails Best Practices"
-  s.authors     = ["Jake Scruggs", "Sean Soper", "Andre Arko", "Petrik de Heus", "Grant McInnes", "Nick Quaranto", "Édouard Brière", "Carl Youngblood", "Richard Huang", "Dan Mayer", "Benjamin Fleischer"]
+  s.authors     = ["Jake Scruggs", "Sean Soper", "Andre Arko", "Petrik de Heus", "Grant McInnes", "Nick Quaranto", "Édouard Brière", "Carl Youngblood", "Richard Huang", "Dan Mayer", "Benjamin Fleischer", "Jon Cairns"]
   s.required_ruby_version     = ">= 1.8.7"
   s.required_rubygems_version = ">= 1.3.6"
   # git_files            = `git ls-files`.split("\n").reject {|path| path =~ /\.gitignore$/ } rescue ''
