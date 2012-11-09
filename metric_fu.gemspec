@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir['spec/**/*.*']
 
   {
-    "flay"                  => [">= 2.0.0"],
-    "flog"                  => [">= 3.0.0"],
+    "flay"                  => ["= 1.2.1"],
+    "flog"                  => ["= 2.3.0"],
     "reek"                  => ["= 1.2.12"],
     "roodi"                 => ["= 2.1.0"],
     "rails_best_practices"  => ["~> 0.6"],
