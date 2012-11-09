@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
     "reek"                  => ["= 1.2.12"],
     "roodi"                 => ["= 2.1.0"],
     "rails_best_practices"  => ["~> 0.6"],
-    "churn"                 => ["= 0.0.24"],
+    "churn"                 => ["= 0.0.7"],
     "chronic"               => ["= 0.2.3"], # required by churn
     "main"                  => ["= 4.7.1"], # required by churn
     "activesupport"         => [">= 2.0.0"], # ok
